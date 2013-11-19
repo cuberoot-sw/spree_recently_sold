@@ -1,0 +1,12 @@
+<h1>Recently Sold </h1>
+<% if get_recetly_sold_products.any? %>
+  <ul class="recently_sold_products">
+    <% get_recetly_sold_products.each do |product| %>
+       <% if product.present? %>
+          <li>
+            <%= link_to product.name, product, :class => "product_link" %>
+           </li>
+        <% end %>
+     <% end %>
+  </ul>
+<% end %>

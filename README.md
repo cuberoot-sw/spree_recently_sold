@@ -1,7 +1,7 @@
-SpreeRecentlySoldProducts
+Spree Recently Sold Products
 =========================
 
-Introduction goes here.
+Compatible with spree >= 1.3.3
 
 Installation
 ------------
@@ -37,4 +37,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_recently_sold_products/factories'
 ```
 
-Copyright (c) 2013 [name of extension creator], released under the New BSD License
+Copyright (c) 2014 [Cuberoot Software], released under the New BSD License

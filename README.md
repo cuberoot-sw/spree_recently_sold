@@ -16,7 +16,6 @@ Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_recently_sold_products:install
 ```
 
 Testing
@@ -37,4 +36,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_recently_sold_products/factories'
 ```
 
-Copyright (c) 2014 [Cuberoot Software], released under the New BSD License
+Copyright (c) 2014 [http://www.cuberoot.in](Cuberoot Software), released under the New BSD License

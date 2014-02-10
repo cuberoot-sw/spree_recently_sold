@@ -28,8 +28,26 @@ Customization
 By default the recently sold products are displayed at the bottom. You
 can change this by overriding the view in `app/overrides/spree/add_recently_sold_product.rb`
 
-To Do
--------
-1. Configuration for number of products to display.
+Configuration
+-------------
 
-Copyright (c) 2014 [http://www.cuberoot.in](Cuberoot Software), released under the New BSD License
+By default the 10 recently sold products are displyed here.
+
+To change this, use `:recently_sold_product_limit` preference.
+
+One possible solution is like:
+```ruby
+  # app/models/product_decorator.rb
+
+  Spree::Product.class_eval do
+    Spree::Config[:recently_sold_product_limit] = 5
+  end
+
+```
+
+Note:
+  Once a preference is set, you will need to either set it back yourself to the default, if you want to use default preference value. 
+
+NOTE: No migrations are required for this extension
+
+Copyright (c) 2014 [Cuberoot Software](http://www.cuberoot.in), released under the New BSD License

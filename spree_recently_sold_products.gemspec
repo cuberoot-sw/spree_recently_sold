@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '0.3'
   s.summary     = 'Spree extension to display recently sold products.'
   s.description = 'This extension displays a list of recently sold products on the home
-                   page.Currently displaying 10 recently sold products.'
+                   page.'
   s.required_ruby_version = '>= 1.9.3'
 
   s.authors     = ["deepalic"]

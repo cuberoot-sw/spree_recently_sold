@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_recently_sold_products'
-  s.version     = '0.2'
+  s.version     = '0.3'
   s.summary     = 'Spree extension to display recently sold products.'
   s.description = 'This extension displays a list of recently sold products on the home
                    page.Currently displaying 10 recently sold products.'

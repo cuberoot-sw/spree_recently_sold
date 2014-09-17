@@ -2,14 +2,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_recently_sold_products'
-  s.version     = '0.3'
+  s.version     = '0.4'
   s.summary     = 'Spree extension to display recently sold products.'
   s.description = 'This extension displays a list of recently sold products on the home
                    page.'
   s.required_ruby_version = '>= 1.9.3'
 
   s.authors     = ["deepalic"]
-  s.email       = ["deepalic@cuberoot.in"]
+  s.email       = ["deepalichaudhary06@gmail.com"]
   # s.homepage  = 'http://www.spreecommerce.com'
 
   s.files       = `git ls-files`.split("\n")
